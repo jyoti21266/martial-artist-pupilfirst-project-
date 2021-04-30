@@ -9,16 +9,16 @@ let loadImage = ( src , callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-    return "images/" + animation + "/" + frameNumber + ".png";
+    return "/images/" + animation + "/" + frameNumber + ".png";
 };
 
 let frames = {
     idle: [1, 2, 3, 4, 5, 6, 7, 8],
     kick: [1, 2, 3, 4, 5, 6, 7],
     punch: [1, 2, 3, 4, 5, 6, 7],
-    backward: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    backward: [1, 2, 3, 4, 5, 6],
     block: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    forward: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    forward: [1, 2, 3, 4, 5, 6],
 };
 
 let loadImages = (callback) => {
