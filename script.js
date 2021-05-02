@@ -9,7 +9,7 @@ let loadImage = ( src , callback) => {
 };
 
 let imagePath = (frameNumber, animation) => {
-    return "/images/" + animation + "/" + frameNumber + ".png";
+    return "../canvas game/finisher/images/" + animation + "/" + frameNumber + ".png";
 };
 
 let frames = {
